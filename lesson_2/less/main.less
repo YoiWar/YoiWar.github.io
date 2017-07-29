@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|PT+Sans+Narrow');
+@main_color: #f4a124;
+@main_light: #f8c14c;
+@menu_bg: #505050;
+@h1_bg: #fbd59c;
+@h1_brd: #fff;
+@descr_bg: #e5e5e5;
+@descr_brd: #c2c2c2;
+@shadow: rgba(51, 51, 51, 0.09);
+
+body {
+	font-family: "Oswald", sans-serif;
+}
+.block {
+	height: 150px;
+	display: flex;
+	align-items: center;
+}
+.main_header {
+	background: linear-gradient(0, @main_color, @main_light);
+}
+
+.menu {
+	min-height: 82px;
+	background-color: @menu_bg;
+	ul {
+		list-style-type: none;
+		margin: 0;
+		li {
+			display: inline-block;
+			margin-right: 30px;
+			padding: 28px 0;
+			a {
+				color: @main_color;
+				font-family: "PT Sans Narrow", sans-serif;
+				font-size: 18px;
+
+			}
+		}
+	}
+}
+
+.hd2 {
+	background-color: @h1_bg;
+	border: 3px solid @h1_brd;
+	min-height: 85px;
+	h1 {
+		line-height: 85px;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		font-size: 28px;
+		text-transform: uppercase;
+	}
+}
+
+.item {
+	margin-top: 30px;
+	display: inline-block;
+	height: 74px;
+	box-shadow: 0px 0px 4px 1px @shadow;
+	margin-right: 7px;
+	width: 243px;
+	
+	.img_div {
+		padding: 0;
+		width: 104px;
+	}
+
+	.description {
+		background-color: @descr_bg;
+		height: 74px;
+		border-left: 1px dotted @descr_brd;
+		width: 139px;
+		padding: 0;
+		display: table;
+		padding-left: 20px;
+		p {
+			text-decoration: underline;
+			font-family: Tahoma, sans-serif;
+			font-size: 14px;
+			display: table-cell;
+  			vertical-align: middle;
+		}
+		&:hover {
+			cursor: pointer;
+		}
+	}
+}
