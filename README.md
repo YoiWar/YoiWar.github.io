@@ -12,6 +12,6 @@
 
 ## Урок 13. Работа со шрифтами + практика. 
 
-[Урок 14.1](YoiWar.github.io/Lessonsonfonts/ "Описание") - Теория.
+[Урок 14.1](YoiWar.github.io/Lessonsonfonts/ "Описаниеs") - Теория.
 
 [Урок 14.2](YoiWar.github.io/штукатурка/src/ "Описание") - Практика. Работа с header.
