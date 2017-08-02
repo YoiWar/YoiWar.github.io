@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'BebasBold';
+    src: url('../font/BebasBold.eot');
+    src: url('../font/BebasBold.eot') format('embedded-opentype'),
+         url('../font/BebasBold.woff2') format('woff2'),
+         url('../font/BebasBold.woff') format('woff'),
+         url('../font/BebasBold.ttf') format('truetype'),
+         url('../font/BebasBold.svg#BebasBold') format('svg');
+}
+
+@font-face {
+    font-family: 'LatoBold';
+    src: url('../font/LatoBold.eot');
+    src: url('../font/LatoBold.eot') format('embedded-opentype'),
+         url('../font/LatoBold.woff2') format('woff2'),
+         url('../font/LatoBold.woff') format('woff'),
+         url('../font/LatoBold.ttf') format('truetype'),
+         url('../font/LatoBold.svg#LatoBold') format('svg');
+}
+
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+
+.resault1 {
+	font-family: 'Open Sans', sans-serif;
+}
+.resault2 {
+	font-family: 'BebasBold', sans-serif;
+}
+.resault3 {
+	 font-family: 'LatoBold', sans-serif;
+}
+.resault4 {
+	font-family: 'Lobster', sans-serif;
+}
