@@ -1,0 +1,58 @@
+body {
+  margin-top: 25rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+}
+.box {
+  display: inline-block;
+  margin-right: -4px;
+  width: 225px;
+  height: 300px;
+  position: relative;
+  z-index: 1;
+}
+.photo1 {
+  background-image: url(https://s1.1zoom.ru/b5142/Bears_Polar_bears_Water_512486_225x300.jpg);
+  background-size: cover;
+}
+.photo2 {
+  background-image: url(https://i1.wallpaperscraft.ru/image/okean_volny_zakat_113078_225x300.jpg);
+  background-size: cover;
+}
+.photo3 {
+  background-image: url(http://www.czecot.cz/results/zobrobr.php?w=st&id=12814&orig=1);
+  background-size: cover;
+}
+.photo4 {
+  background-image: url(http://blog.printbiz.ru/wp-content/upl/2010/02/fire-225x300.jpg);
+  background-size: cover;
+}
+.box:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.7;
+  z-index: -1;
+}
+.text {
+  opacity: 0;
+  text-align: center;
+  height: 300px;
+  line-height: 300px;
+  color: red;
+  text-transform: uppercase;
+  z-index: 20;
+}
+.box:hover .text {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  content: '';
+  opacity: 1;
+  z-index: 100;
+  color: red;
+}
