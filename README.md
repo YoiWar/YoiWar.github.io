@@ -20,4 +20,4 @@
 
 [Урок 14.1](YoiWar.github.io/Thepseudoclass/src/ "Описаниеsы") - Теория.
 
-[Урок 14.2](YoiWar.github.io/Plaster/src/ "Описание") - Практика. 
+[Урок 14.2](https://yoiwar.github.io/Plaster!/src/ "Описание") - Практика. 
