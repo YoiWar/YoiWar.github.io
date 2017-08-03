@@ -15,3 +15,9 @@
 [Урок 14.1](YoiWar.github.io/Lessonsonfonts/ "Описаниеs") - Теория.
 
 [Урок 14.2](YoiWar.github.io/Plaster/src/ "Описание") - Практика. 
+
+## Урок 14. Работа с псевдо классами + практика. 
+
+[Урок 14.1](YoiWar.github.io/The pseudo class/src/ "Описаниеs") - Теория.
+
+[Урок 14.2](YoiWar.github.io/Plaster/src/ "Описание") - Практика. 
