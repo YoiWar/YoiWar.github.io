@@ -26,4 +26,4 @@
 
 [Урок 14.1](https://yoiwar.github.io/js/src/ "Описаниеsы") - Теория.
 
-[Урок 14.2](https://yoiwar.github.io/Plaster!/src/ "Описание") - Практика. 
+[Урок 14.2](https://yoiwar.github.io/slider/src/ "Описание") - Практика. 
