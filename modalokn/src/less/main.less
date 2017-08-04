@@ -1,0 +1,403 @@
+@btn-color: #faa103;
+// Иконки
+@icon-color: #57aa13;
+// Заголовки h1, h2, h3 и т.д...
+@text-big-color: #1a1820;
+// Текст контента
+@main-tx-color: #292929;
+// Ошибка
+@error-color: #ff0000;
+/* Цвета bgc */
+@main-bg-white: #ffffff;
+@reviews-color: #fbfbfb;
+@discounts-color: #f5f5f5;
+@white-color: #ffffff;
+@border_input: #dddddd;
+
+
+/*=================================================================================== Шрифты ====================================================================*/
+
+
+@font-face {
+	font-family: 'ProximaNova_bold';
+	src: url('../fonts/ProximaNova-Bold.eot');
+	src: url('../fonts/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Bold.woff2') format('woff2'),
+		url('../fonts/ProximaNova-Bold.woff') format('woff'),
+		url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ProximaNova_regular';
+	src: url('../fonts/ProximaNova-Regular.eot');
+	src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+		url('../fonts/ProximaNova-Regular.woff') format('woff'),
+		url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+		url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.reg() {
+	font-family: 'ProximaNova_regular', sans-serif;
+}
+
+.bold() {
+	font-family: 'ProximaNova_bold', sans-serif;
+}
+
+
+/*=================================================================================== Базовые настройки ====================================================================*/
+
+html {
+	font-size: 10px;
+}
+
+body {
+	.reg();
+	margin: 0;
+	padding: 0;
+	
+} 
+
+
+/*=================================================================================== Секции ====================================================================*/
+
+section {
+	padding: 10rem 0;
+}
+
+
+/*=================================================================================== main-header ====================================================================*/
+
+
+.main {
+	background: #fff url(../img/main-bg.jpg)  no-repeat center center;
+	background-size: cover;
+	padding: 3rem 0;
+	&-content {
+		margin-top: 14rem;
+		// Главный заголовок
+		h1 {
+			margin-top: 0;
+			line-height: 1.45;
+			 margin-bottom: 5rem;
+			.bold();
+			font-size: 4rem;
+			text-transform: uppercase;
+		}
+	}
+	// Подзаголвок
+	.subtitle {
+		margin-top: 5rem;
+     font-size: 2rem;
+	}
+	// Ярлык
+	span {
+		margin-top: 2rem;
+		display: inline-block;
+		padding: 2rem 4rem;
+		background-color: #7bb442;
+		font-size: 1.8rem;
+		color: @white-color ;
+		text-align: center;
+		// Цифра 300 рублей
+		strong {
+			font-size: 3rem;
+			.bold();
+		}
+	}
+	// Оплата по факту
+	&-trig {
+		font-size: 2.2rem;
+		text-transform: uppercase;
+		.bold();
+		color: @text-big-color ;
+		display: block;
+		margin-top: 4rem;
+	} 
+
+  // Главная форма
+   &-form {
+   	padding: 4rem 5rem;
+   	background-color: @white-color;
+   	text-align: center;
+   	// Заголвок формы 
+   	&-header {
+   		text-align: center;
+   		display: inline-block;
+   		margin-bottom: 4rem;
+   		font-size: 1.8rem;
+   	}
+   	.main-form-input {
+   	   margin: 2rem 0;
+       display: block;
+       border: 1px solid @border_input;
+       width: 100%;
+       padding: 2rem;
+       border-radius: 7px;
+     }
+     label {
+    font-size: 1.3rem;
+   	left: 50%;
+   	transform: translateX(-50%) translateY(-50%);
+   	position: absolute;
+   	display: inline-block;
+   	padding: 0.5rem;
+   	background-color: @white-color;
+   }
+   .button1 {
+   	padding: 1rem 3rem;
+   	border-radius: 8px;
+   	font-size: 1.6rem;
+   	background-color: @btn-color;
+   	color: @white-color;
+   	text-transform: uppercase;
+   	border: none;
+   	transition: all 0.2s;
+   	width: 257px;
+    min-height: 65px;
+   	&:hover {
+   		cursor: pointer;
+   		background-color: darken(@btn-color, 8%);
+   	}
+   }
+   }
+ 
+  
+   // Поле для ввода.
+
+   // Кнопка 
+  
+   // Подпись под формой  
+   small {
+   	display: block;
+    color:  #565656;
+	  font-size: 1.2rem;
+	  font-weight: 400;
+	  text-align: center;
+	  margin-top: 1.5rem;
+   }
+ .tx-header-bt {
+ 	  display: inline-block;
+  	position: static;
+  	display: block;
+  	color:  #565656;
+		font-size: 1.2rem;
+		font-weight: 400;
+		text-align: left;
+		margin: 3rem 6rem;
+  }
+}
+
+
+
+.phone {
+	display: inline-block;
+	.bold();
+	font-size: 2rem;
+	margin-left: 60px;
+	height: 7rem;
+	line-height: 7rem;
+	color: @main-tx-color;
+		&:hover {
+				text-decoration: none;
+				color: @main-tx-color;
+			}
+			
+}
+
+
+/* Оформление секции с преимуществами */
+
+.features {
+	&-block {
+		text-align: center;
+		h3 {
+			margin-bottom: 3rem;
+			font-size: 2rem;
+			.bold();
+		}
+		p {
+			font-size: 1.6rem;
+			a {
+				color: #4aa223;
+				&:hover {
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	&-img {
+		margin-bottom: 7rem;
+		height: 5rem;
+		img {
+          display: block;
+          margin: 0 auto;
+		}
+	}
+}
+
+.arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 99;
+	width: 2rem;
+	height: 2rem;
+	border: none;
+}
+
+.prev {
+	left: 0;
+	background: url('../img/left-arrow.svg') center no-repeat;
+	background-size: 70%;
+}
+.next {
+	right: 0;
+	background: url('../img/right-arrow.svg') center no-repeat;
+	background-size: 70%;
+}
+
+.slick-active {
+	outline: none;
+}
+
+ .section-header {
+   
+ 	font-size: 3.6rem;
+ 	.bold();
+ 	text-align: center;
+ 	margin: 2rem 0 10rem;
+ }
+
+
+
+.header {
+	height: 7rem;
+}
+
+  .wrap {
+	display: table;
+	width: 99%;
+	height: 7rem;
+    &-block {
+    	text-align: right;
+    	display: table-cell;
+    	vertical-align: middle;
+    }
+}
+
+// Правило для кнопoк
+button, input, a, textarea {
+     outline: none;
+}
+
+
+/* Оформление модальных окон */ 
+.popup {
+	display: none;
+	position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.5);
+	&-form {
+		
+		margin-top: 3rem;
+		padding: 0;
+	}
+	&-close {
+
+        position: absolute;
+        top: -1.5rem;
+        right: -2rem;
+        width: 2rem;
+        text-align: center;
+        border: none;
+        background-color: transparent;
+        font-size: 3rem;
+        color: @white-color;
+	}
+	&-content {
+		position: fixed;
+		top: 10%;
+		background-color: @white-color;
+		left: 50%;
+		transform: translateX(-50%);
+		padding: 4rem 6rem;
+		text-align: center;
+	}
+	&-header {
+		.bold();
+	}
+}
+
+
+.button {
+	background-color: @btn-color;
+	color: @white-color;
+	padding: 1rem 3rem;
+	border-radius: 8px;
+	border: none;
+	display: inline-block;
+	margin-right: 10px;
+	transition: all 0.2s;
+	&:hover {
+	   		cursor: pointer;
+	   		background-color: darken(@btn-color, 8%);
+	   	}
+}
+
+
+/*=================================================================================== Медия запросы ====================================================================*/
+
+
+@media (max-width: 991px) {
+	.main {
+		background-position: top right;
+	}
+	.phon {
+		text-align: center;
+	}
+	.button {
+		margin-left: 70px;
+	}
+	.main-content {
+		margin-top: 6rem;
+	}
+	.main-title {
+		text-align: center;
+	}
+	.main-trig {
+		margin-bottom: 3rem;
+	}
+}
+
+@media (max-width: 767px) {
+	.main {
+		background-position: top left;
+	}
+	.header {
+		text-align: center;
+	}
+	.wrap-block {
+		text-align: center;
+	}
+}
+
+
+/*=================================================================================== lorem ====================================================================*/
+
+
+
+
+
