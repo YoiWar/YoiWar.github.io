@@ -18,12 +18,19 @@
 
 ## Урок 15. Работа с псевдо классами + практика. 
 
-[Урок 14.1](YoiWar.github.io/Thepseudoclass/src/ "Описаниеsы") - Теория.
+[Урок 15.1](YoiWar.github.io/Thepseudoclass/src/ "Описаниеsы") - Теория.
 
-[Урок 14.2](https://yoiwar.github.io/Plaster!/src/ "Описание") - Практика. 
+[Урок 15.2](https://yoiwar.github.io/Plaster!/src/ "Описание") - Практика. 
 
 ## Урок 16. Работа со слайдером + практика
 
-[Урок 14.1](https://yoiwar.github.io/js/src/ "Описаниеsы") - Теория.
+[Урок 16.1](https://yoiwar.github.io/js/src/ "Описаниеsы") - Теория.
 
-[Урок 14.2](https://yoiwar.github.io/slider/src/ "Описание") - Практика. 
+[Урок 16.2](https://yoiwar.github.io/slider/src/ "Описание") - Практика. 
+
+## Урок 17. Работа с модалками + практика
+
+[Урок 17.1](https://yoiwar.github.io/modalokn/src/ "Описаниеsы") - Теория.
+
+[Урок 17.2](https://yoiwar.github.io/modalokn/src/  "Описание") - Практика. 
+
