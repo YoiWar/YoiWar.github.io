@@ -30,7 +30,7 @@
 
 ## Урок 17. Работа с модалками + практика
 
-[Урок 17.1](https://yoiwar.github.io/modalokn/src/ "Описаниеsы") - Теория.
+[Урок 17.1](https://yoiwar.github.io/mymodal/src/ "Описаниеsы") - Теория.
 
 [Урок 17.2](https://yoiwar.github.io/modalokn/src/  "Описание") - Практика. 
 
