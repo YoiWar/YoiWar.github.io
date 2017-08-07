@@ -38,5 +38,5 @@
 
 [Урок 18.1](https://yoiwar.github.io/tabs/src/ "Описаниеsы") - Теория.
 
-[Урок 18.2](https://yoiwar.github.io/modalokn/src/  "Описание") - Практика. 
+[Урок 18.2](https://yoiwar.github.io/Akkardeon/src/  "Описание") - Практика. 
 
