@@ -34,9 +34,9 @@
 
 [Урок 17.2](https://yoiwar.github.io/modalokn/src/  "Описание") - Практика. 
 
-## Урок 17. Работа с табами и аккардеонами + пратика
+## Урок 19. Работа с анимацией  + пратика
 
-[Урок 18.1](https://yoiwar.github.io/tabs/src/ "Описаниеsы") - Теория.
+[Урок 19.1](https://yoiwar.github.io/animation/src/ "Описаниеsы") - Теория.
 
-[Урок 18.2](https://yoiwar.github.io/Akkardeon/src/  "Описание") - Практика. 
+[Урок 19.2](https://yoiwar.github.io/Akkardeon/src/  "Описание") - Практика. 
 
