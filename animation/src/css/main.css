@@ -1,0 +1,21 @@
+@-webkit-keyframes move {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: 400px;
+  }
+}
+@keyframes move {
+  from {
+    margin-left: 0;
+  }
+  to {
+    margin-left: 400px;
+  }
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
