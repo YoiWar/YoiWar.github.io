@@ -1,0 +1,23 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.section {
+  text-align: center;
+  width: 100%;
+  display: table;
+}
+.wrapper {
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+}
+.section {
+  height: 10px;
+}
+.wrapper {
+  height: 500px;
+}
