@@ -1,0 +1,143 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+html {
+	font-size: 10px;
+}
+a:active, a:visited, a:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+.row {
+	margin-right: 0;
+}
+
+
+.wrapper {
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 400px;
+	margin-top: 100px;
+}
+
+.parallax-window {
+	min-height: 500;
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+    clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+
+.main {
+	position: relative;
+	display:table;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	height: 100vh;
+	
+	&-overlay {
+
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, 0.3);
+}
+	&-header {
+		display: inline-block;
+		position: relative;
+		z-index: 20;
+}
+}
+
+.avatar {
+	display: inline-block;
+	margin-bottom: 10px;
+	width: 250px;
+}
+
+.zagl-header {
+	display: inline-block;
+	font-size: 5rem;
+	text-transform: uppercase;
+	margin-top: 0;
+}
+
+.header-title-gl {
+	line-height: 2;
+   p {
+   	display: inline-block;
+   	text-transform: uppercase;
+    color: rgb(153, 153, 153);
+    font-weight: 900;
+   }
+}
+
+.main-down {
+	position: absolute;
+	color: #fff;
+	z-index: 4;
+	bottom: 2rem;
+	display: inline-block;
+	font-size: 2rem;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	border: 1px solid transparent;
+	line-height: 50px;
+	left: 50%;
+	margin-left: -25px;
+	transition: 0.2s;
+}
+.main-down:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
+
+.avatar {
+	display: inline-block;
+	margin-left: 104px;
+}
+
+.lin1 {
+	transform: rotate(89deg);
+    margin-top: 3px;
+    margin-bottom: 10;
+    width: 80px;
+    margin-left: 12px;
+}
+.lin2 {
+	margin-bottom: 30px;
+	width: 50rem;
+}
+.lin15 {
+	transform: rotate(89deg);
+    margin-top: 59px;
+    margin-bottom: 10;
+    width: 80px;
+    margin-right: 6px;
+}
+
+
+span {
+	margin-left: 10px;
+	border-left: 1px solid #fff;
+	padding: 5px;
+}
+
+.main-btns {
+	border-radius: 1px;
+	margin-top: 20px;
+	width: 150px;
+	margin-right: -10px;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+	background-color: transparent;
+	
+}
+.btn-default {
+    color: #fff;
+}
