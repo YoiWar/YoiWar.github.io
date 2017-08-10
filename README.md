@@ -40,3 +40,9 @@
 
 [Урок 19.2](https://yoiwar.github.io/main-src/  "Описание") - Практика. 
 
+## Урок 20. Работа с видио  + пратика
+
+[Урок 20.1](https://yoiwar.github.io/video/src/ "Описаниеsы") - Теория.
+
+[Урок 20.2](https://yoiwar.github.io/main-src/  "Описание") - Практика. 
+
