@@ -1,0 +1,266 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Light.eot');
+  src: url('Roboto-Light.eot?#iefix') format('embedded-opentype'), url('Roboto-Light.woff2') format('woff2'), url('Roboto-Light.woff') format('woff'), url('Roboto-Light.ttf') format('truetype'), url('Roboto-Light.svg#Roboto-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.eot');
+  src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto-Regular.ttf') format('truetype'), url('../fonts/Roboto-Regular.svg#Roboto-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.eot');
+  src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Roboto-Bold.woff2') format('woff2'), url('../fonts/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto-Bold.ttf') format('truetype'), url('../fonts/Roboto-Bold.svg#Roboto-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Elektra Light Pro';
+  src: url('../fonts/ElektraLightPro.eot');
+  src: url('../fonts/ElektraLightPro.eot?#iefix') format('embedded-opentype'), url('../fonts/ElektraLightPro.woff2') format('woff2'), url('../fonts/ElektraLightPro.woff') format('woff'), url('../fonts/ElektraLightPro.ttf') format('truetype'), url('../fonts/ElektraLightPro.svg#ElektraLightPro') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+a:active, a:visited, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+.main {
+  background: url(../img/bg.png) center center no-repeat;
+  background-size: cover;
+}
+ul {
+  display: inline-block;
+}
+ul li {
+  font-family: Elektra Light Pro;
+  font-size: 2.4rem;
+  color: #fff;
+  list-style-image: url(../img/icon.png);
+}
+.btn {
+  background-color: #00aeff;
+  width: 230px;
+  height: 37px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.brand {
+  margin-top: 1rem;
+}
+.contact {
+  margin-top: 1rem;
+}
+.menu-header {
+  font-size: 2rem;
+}
+a {
+  color: #fff;
+  height: 5rem;
+  line-height: 5rem;
+}
+.main-razdel {
+  background-color: #00aeff;
+  height: 5rem;
+}
+.main-title {
+  line-height: 1.6;
+  font-family: Elektra Light Pro;
+  margin-top: 16rem;
+  font-size: 2.5rem;
+}
+.main-title p {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.main-title .title li {
+  font-size: 2.5rem;
+  list-style-image: url(../img/arrow-right.png);
+  color: #00aeff;
+}
+.main-title .text-title {
+  margin-left: 20px;
+  margin-bottom: 12rem;
+}
+.pages-wrappers {
+  margin-top: 10px;
+}
+.featurs-header {
+  font-family: Elektra Light Pro;
+  color: #363535;
+  font-size: 2.25rem;
+  text-transform: uppercase;
+  height: 2rem;
+  margin-top: 4rem;
+  margin-left: 15rem;
+}
+.featurs-wrapper {
+  line-height: 1.6;
+  margin-top: 7rem;
+  display: inline-block;
+  text-align: center;
+}
+.featurs-wrapper img {
+  height: 9rem;
+}
+.featurs-wrapper h3 {
+  text-transform: uppercase;
+  font-family: Elektra Light Pro;
+  color: #00aeff;
+}
+.featurs-wrapper p {
+  text-transform: uppercase;
+}
+.inform-wrapper {
+  margin-top: 5rem;
+}
+.inform-2 {
+  background-color: #b5b5b5;
+  width: 960px;
+  height: 53px;
+}
+.inform-2 span {
+  font-family: Elektra Light Pro;
+  color: #fff;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  line-height: 53px;
+  margin-left: 10rem;
+}
+.inform-1 {
+  background-color: #00aeff;
+  width: 1919px;
+  height: 53px;
+}
+.inform-1 span {
+  font-family: Elektra Light Pro;
+  color: #fff;
+  font-size: 2.5rem;
+  margin-left: 600px;
+  line-height: 53px;
+  text-transform: uppercase;
+}
+.Selection-header {
+  margin-top: 5rem;
+}
+.tovar-btn {
+  position: relative;
+  top: -20px;
+  width: 264px;
+  height: 4.5rem;
+  border-radius: 1px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: Elektra Light Pro;
+}
+.tover-2 {
+  position: absolute;
+  margin-right: 100px;
+}
+.tovar-btn-1 {
+  width: 35rem;
+  padding: 0px;
+  margin-top: 7rem;
+}
+.tovar-btn-1 a {
+  color: #fff;
+}
+.m {
+  text-transform: uppercase;
+  
+  margin-bottom: 5rem;
+}
+.Recommended {
+  background: url(../img/shop/bg-rec.png) center center no-repeat;
+  background-size: cover;
+  margin-top: 5rem;
+}
+.header-rec {
+  font-size: 2rem;
+  color: #363535;
+  font-family: Elektra Light Pro;
+  text-transform: uppercase;
+  margin-top: 10rem;
+}
+.rocommend-featurs {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.rec-img {
+  margin-top: 4rem;
+}
+.rec-img:hover {
+  background-color: #e474f2;
+}
+.Conclusion-h2 {
+  font-family: Elektra Light Pro;
+  color: #363535;
+  margin-top: 5rem;
+}
+.rocommend-title {
+  font-size: 1.7rem;
+  font-family: Roboto;
+}
+.Explanations-header h3 {
+  font-family: Elektra Light Pro;
+  color: #363535;
+  font-size: 3.7rem;
+  margin-bottom: 5rem;
+}
+.Explanations-main-title {
+  margin-left: 10rem;
+}
+.footer {
+  background: url(../img/bg.png) center center no-repeat;
+}
+.footer-title {
+  margin-top: 3rem;
+  font-family: Roboto;
+  color: #fff;
+}
+.footer-title span {
+  color: #3083c0;
+}
+.img-footer {
+  margin-top: 2rem;
+}
+.phone {
+  position: absolute;
+  right: 0;
+  margin-top: 30px;
+  margin-right: 50rem;
+  display: inline-block;
+}
+.footer-btn {
+  position: absolute;
+  margin-left: 74rem;
+  margin-top: 50px;
+}
+.ssd {
+  height: 10rem;
+}
+.sotset {
+  margin-left: 140px;
+}
+.header-2 {
+  margin-top: 7rem;
+  font-family: font-family: Elektra Light Pro;
+}
+.footer {
+  margin-top: 10rem;
+}
