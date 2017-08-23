@@ -1,0 +1,163 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+/* Офромление главного экрана */
+.main-header {
+  height: 100vh;
+  position: relative;
+}
+.main-header .main-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+}
+.main-form {
+  line-height: 4rem;
+  position: relative;
+  z-index: 1000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  min-height: 100vh;
+}
+.main-form .form-header-img .avatar {
+  width: 25rem;
+  margin-bottom: 10px;
+}
+.main-form .main-title-header .form-header-title {
+  font-size: 5rem;
+  color: #fff;
+}
+.main-form .main-title-header .form-description {
+  font-size: 2rem;
+}
+.main-form .main-title-header .form-header-information {
+  font-size: 3rem;
+  color: yellow;
+}
+.main-form .main-title-header .form-header-information strong {
+  font-size: 2rem;
+}
+.main-down {
+  position: absolute;
+  color: #fff;
+  z-index: 4;
+  bottom: 5rem;
+  display: inline-block;
+  font-size: 2rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  line-height: 50px;
+  left: 50%;
+  margin-left: -25px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.main-wrap-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+#scene {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+/* Оформление секции контактов */
+.con-bg {
+  width: 35rem;
+}
+.InWrappers {
+  margin-top: 10rem;
+}
+.wrapper-main-contacts {
+  -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 99%, 50% 85%, 0 100%, 0 0);
+  clip-path: polygon(50% 0%, 100% 0, 100% 99%, 50% 85%, 0 100%, 0 0);
+  background-color: rgba(194, 180, 180, 0.2);
+}
+.wrapper-main-contacts .contacts-header strong {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.wrapper-main-contacts .contacnt-description {
+  line-height: 2.3rem;
+  color: #404040;
+}
+.title-contact-me {
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.left-descriprion-main {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2rem;
+  margin-right: 10rem;
+}
+.left-descriprion-3 {
+  margin-top: 15rem;
+  margin-left: 59rem;
+}
+span {
+  width: 900;
+  text-transform: uppercase;
+}
+hr {
+  border-color: #000;
+  padding-left: 20px;
+}
+.map {
+  margin-left: 70rem;
+}
+.main-down-1 {
+  color: #fff;
+  z-index: 4;
+  display: inline-block;
+  font-size: 4rem;
+  width: 50px;
+  height: 50px;
+  color: gray;
+  margin-left: 22rem;
+  margin-top: 5rem;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  line-height: 50px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+.contacts-title {
+  padding-bottom: 20rem;
+}
+/* Медиа */
+@media (max-width: 1197px) {
+  .main-down-1 {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
+  .left-descriprion-3 {
+    margin-top: 7rem;
+    margin-left: 1rem;
+    text-align: center;
+  }
+  .left-descriprion-main {
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 8rem;
+  }
+}
