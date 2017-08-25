@@ -1,0 +1,327 @@
+/* Цвета и оттенки */
+@wight-color: #ffffff;
+@text-color: #1b1b1b;
+
+/* Шрифты */
+@font-face {
+	font-family: 'Museo Sans Cyrl 900';
+	src: url('../fonts/MuseoSansCyrl-900.eot');
+	src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'),
+		url('../fonts/MuseoSansCyrl-900.woff') format('woff'),
+		url('../fonts/MuseoSansCyrl-900.ttf') format('truetype'),
+		url('../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl 100';
+	src: url('../fonts/MuseoSansCyrl-100.eot');
+	src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'),
+		url('../fonts/MuseoSansCyrl-100.woff') format('woff'),
+		url('../fonts/MuseoSansCyrl-100.ttf') format('truetype'),
+		url('../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl 500';
+	src: url('../fonts/MuseoSansCyrl-500.eot');
+	src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'),
+		url('../fonts/MuseoSansCyrl-500.woff') format('woff'),
+		url('../fonts/MuseoSansCyrl-500.ttf') format('truetype'),
+		url('../fonts/MuseoSansCyrl-500.svg#MuseoSansCyrl-500') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Museo Sans Cyrl 700';
+	src: url('../fonts/MuseoSansCyrl-700.eot');
+	src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'),
+		url('../fonts/MuseoSansCyrl-700.woff') format('woff'),
+		url('../fonts/MuseoSansCyrl-700.ttf') format('truetype'),
+		url('../fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.Black() {
+	font-family: 'Museo Sans Cyrl 900', sans-serif;
+}
+
+.Light() {
+	font-family: 'Museo Sans Cyrl 100', sans-serif;
+}
+.Medium() {
+	font-family: 'Museo Sans Cyrl 500', sans-serif;
+}
+.Bold() {
+	font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+
+html {
+	font-size: 10px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	
+} 
+
+section {
+	padding: 10rem 0;
+}
+/* Главный экран */
+.main {
+	background: @wight-color url(../img/all-bg/main-bg.jpg.png) center center no-repeat;
+	background-size: cover;
+	// Оформление верхнего меню
+	.top-header-wrappers {
+		padding-top: 3rem;
+		.header-contacts {
+			display: flex;
+			justify-content: flex-end;
+			span {
+				color: @wight-color;
+                .Bold();
+                font-size: 2.5rem;
+
+			}
+			.order-phone {
+				color: darken(@wight-color, 20%);
+				display: flex;
+				margin-left: 7.5rem;
+				font-size: 1.5rem;
+			}
+		}
+	}
+	.center-content-wrappers {
+		margin-top: 16rem;
+		.title-content {
+		  color: @wight-color;
+		  .main-title {
+		  	font-size: 4.4rem;
+		  	display: block;
+            .Bold()
+		  }
+		  .description-title {
+		  	display: block;
+            font-family: 'Museo Sans Cyrl 100', sans-serif;
+            font-size: 2.5rem;
+		  }
+		  .btn-title {
+		  	margin-top: 5rem;
+		  	width: 33.6rem;
+            min-height: 5.6rem;
+            background-color: transparent;
+            border-color: @wight-color;
+            border-radius: 1px;
+            text-transform: uppercase;
+            &:hover {
+            	background-color: #fff;
+            	color: #000;
+            }
+		  }
+		}
+	}
+}
+.wrappers-services {
+	.wrapper-icon-main {
+		display: flex;
+		justify-content: center;
+		margin-top: 15rem;
+		color: @wight-color;
+		margin-bottom: 5rem;
+		.icons-bg {
+			width: 5rem;
+			min-height: 5rem;
+			margin-bottom: 1.5rem;
+			color: @wight-color;
+			margin-left: 6.5rem;
+			
+		}
+
+	}
+   .sl__text {
+   	height: 6rem;
+   }
+}
+.slick-slide {
+      &:focus, a {
+        outline: none;
+      }
+    }
+
+/* События */
+
+
+/* Форма отправки */
+
+
+/* Главные преимущества */
+
+
+/* Стоимость услуг */
+
+
+/* Второстепенные преимущества */
+
+
+/* Отзовы о нас */
+
+
+/* Счастье с картинками */
+
+
+/* Футер */
+
+/* Медиа */
+@media(max-width: 1200px) {
+	.header-contacts {
+		margin-bottom: 5rem;
+	}
+}
+@media(max-width: 361px) {
+	.wrappers-services {
+	.wrapper-icon-main {
+		display: flex;
+		justify-content: center;
+		margin-top: 15rem;
+		color: @wight-color;
+		margin-bottom: 5rem;
+		.icons-bg {
+			width: 5rem;
+			min-height: 5rem;
+			margin-bottom: 1.5rem;
+			color: @wight-color;
+			margin-left: 13.5rem;
+			
+		}
+
+	}
+   .sl__text {
+   	height: 6rem;
+   }
+}
+.header-contacts {
+	margin-top: 10rem;
+	margin-right: 7rem;
+
+}
+.brand-header {
+	margin-left: 5rem;
+}
+.title-content {
+	.main-title {
+
+	}
+}
+}
+@media(max-width: 413px) {
+	.header-contacts {
+		margin-top: 12rem;
+		margin-right: 11rem;
+
+	}
+	.brand-header {
+		margin-left: 7rem;
+	}
+	.wrappers-services {
+	.wrapper-icon-main {
+		display: flex;
+		justify-content: center;
+		margin-top: 15rem;
+		color: @wight-color;
+		margin-bottom: 5rem;
+		.icons-bg {
+			width: 5rem;
+			min-height: 5rem;
+			margin-bottom: 1.5rem;
+			color: @wight-color;
+			margin-left: 15rem;
+			
+		}
+
+	}
+   .sl__text {
+   	height: 6rem;
+   }
+}
+}
+@media(max-width: 321px) {
+	.header-contacts {
+		margin-top: 12rem;
+		margin-right: 6rem;
+
+	}
+	.brand-header {
+		margin-left: 4rem;
+	}
+	.wrappers-services {
+	.wrapper-icon-main {
+		display: flex;
+		justify-content: center;
+		margin-top: 15rem;
+		color: @wight-color;
+		margin-bottom: 5rem;
+		.icons-bg {
+			width: 5rem;
+			min-height: 5rem;
+			margin-bottom: 1.5rem;
+			color: @wight-color;
+			margin-left: 12rem;
+			
+		}
+
+	}
+   .sl__text {
+   	height: 6rem;
+   }
+}
+
+}
+@media(max-width: 376px) {
+	.header-contacts {
+		margin-top: 12rem;
+		margin-right: 6rem;
+
+	}
+}
+@media(max-width: 415px) {
+	.header-contacts {
+		margin-top: 12rem;
+		margin-right: 10rem;
+
+	}
+	.brand-header {
+		margin-left: 8rem;
+	}
+	.wrappers-services {
+	.wrapper-icon-main {
+		display: flex;
+		justify-content: center;
+		margin-top: 15rem;
+		color: @wight-color;
+		margin-bottom: 5rem;
+		.icons-bg {
+			width: 5rem;
+			min-height: 5rem;
+			margin-bottom: 1.5rem;
+			color: @wight-color;
+			margin-left: 16rem;
+			
+		}
+
+	}
+   .sl__text {
+   	height: 6rem;
+   }
+}
+}

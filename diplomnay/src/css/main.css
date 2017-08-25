@@ -1,0 +1,263 @@
+/* Цвета и оттенки */
+/* Шрифты */
+@font-face {
+  font-family: 'Museo Sans Cyrl 900';
+  src: url('../fonts/MuseoSansCyrl-900.eot');
+  src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-900.woff') format('woff'), url('../fonts/MuseoSansCyrl-900.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl 100';
+  src: url('../fonts/MuseoSansCyrl-100.eot');
+  src: url('../fonts/MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-100.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-100.woff') format('woff'), url('../fonts/MuseoSansCyrl-100.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-100.svg#MuseoSansCyrl-100') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl 500';
+  src: url('../fonts/MuseoSansCyrl-500.eot');
+  src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-500.woff') format('woff'), url('../fonts/MuseoSansCyrl-500.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-500.svg#MuseoSansCyrl-500') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl 700';
+  src: url('../fonts/MuseoSansCyrl-700.eot');
+  src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-700.woff') format('woff'), url('../fonts/MuseoSansCyrl-700.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-size: 10px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+section {
+  padding: 10rem 0;
+}
+/* Главный экран */
+.main {
+  background: #ffffff url(../img/all-bg/main-bg.jpg.png) center center no-repeat;
+  background-size: cover;
+}
+.main .top-header-wrappers {
+  padding-top: 3rem;
+}
+.main .top-header-wrappers .header-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.main .top-header-wrappers .header-contacts span {
+  color: #ffffff;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  font-size: 2.5rem;
+}
+.main .top-header-wrappers .header-contacts .order-phone {
+  color: #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 7.5rem;
+  font-size: 1.5rem;
+}
+.main .center-content-wrappers {
+  margin-top: 16rem;
+}
+.main .center-content-wrappers .title-content {
+  color: #ffffff;
+}
+.main .center-content-wrappers .title-content .main-title {
+  font-size: 4.4rem;
+  display: block;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+.main .center-content-wrappers .title-content .description-title {
+  display: block;
+  font-family: 'Museo Sans Cyrl 100', sans-serif;
+  font-size: 2.5rem;
+}
+.main .center-content-wrappers .title-content .btn-title {
+  margin-top: 5rem;
+  width: 33.6rem;
+  min-height: 5.6rem;
+  background-color: transparent;
+  border-color: #ffffff;
+  border-radius: 1px;
+  text-transform: uppercase;
+}
+.main .center-content-wrappers .title-content .btn-title:hover {
+  background-color: #fff;
+  color: #000;
+}
+.wrappers-services .wrapper-icon-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15rem;
+  color: #ffffff;
+  margin-bottom: 5rem;
+}
+.wrappers-services .wrapper-icon-main .icons-bg {
+  width: 5rem;
+  min-height: 5rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  margin-left: 6.5rem;
+}
+.wrappers-services .sl__text {
+  height: 6rem;
+}
+.slick-slide:focus,
+.slick-slide a {
+  outline: none;
+}
+/* События */
+/* Форма отправки */
+/* Главные преимущества */
+/* Стоимость услуг */
+/* Второстепенные преимущества */
+/* Отзовы о нас */
+/* Счастье с картинками */
+/* Футер */
+/* Медиа */
+@media (max-width: 1200px) {
+  .header-contacts {
+    margin-bottom: 5rem;
+  }
+}
+@media (max-width: 361px) {
+  .wrappers-services .wrapper-icon-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 15rem;
+    color: #ffffff;
+    margin-bottom: 5rem;
+  }
+  .wrappers-services .wrapper-icon-main .icons-bg {
+    width: 5rem;
+    min-height: 5rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    margin-left: 13.5rem;
+  }
+  .wrappers-services .sl__text {
+    height: 6rem;
+  }
+  .header-contacts {
+    margin-top: 10rem;
+    margin-right: 7rem;
+  }
+  .brand-header {
+    margin-left: 5rem;
+  }
+}
+@media (max-width: 413px) {
+  .header-contacts {
+    margin-top: 12rem;
+    margin-right: 11rem;
+  }
+  .brand-header {
+    margin-left: 7rem;
+  }
+  .wrappers-services .wrapper-icon-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 15rem;
+    color: #ffffff;
+    margin-bottom: 5rem;
+  }
+  .wrappers-services .wrapper-icon-main .icons-bg {
+    width: 5rem;
+    min-height: 5rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    margin-left: 15rem;
+  }
+  .wrappers-services .sl__text {
+    height: 6rem;
+  }
+}
+@media (max-width: 321px) {
+  .header-contacts {
+    margin-top: 12rem;
+    margin-right: 6rem;
+  }
+  .brand-header {
+    margin-left: 4rem;
+  }
+  .wrappers-services .wrapper-icon-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 15rem;
+    color: #ffffff;
+    margin-bottom: 5rem;
+  }
+  .wrappers-services .wrapper-icon-main .icons-bg {
+    width: 5rem;
+    min-height: 5rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    margin-left: 12rem;
+  }
+  .wrappers-services .sl__text {
+    height: 6rem;
+  }
+}
+@media (max-width: 376px) {
+  .header-contacts {
+    margin-top: 12rem;
+    margin-right: 6rem;
+  }
+}
+@media (max-width: 415px) {
+  .header-contacts {
+    margin-top: 12rem;
+    margin-right: 10rem;
+  }
+  .brand-header {
+    margin-left: 8rem;
+  }
+  .wrappers-services .wrapper-icon-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 15rem;
+    color: #ffffff;
+    margin-bottom: 5rem;
+  }
+  .wrappers-services .wrapper-icon-main .icons-bg {
+    width: 5rem;
+    min-height: 5rem;
+    margin-bottom: 1.5rem;
+    color: #ffffff;
+    margin-left: 16rem;
+  }
+  .wrappers-services .sl__text {
+    height: 6rem;
+  }
+}
