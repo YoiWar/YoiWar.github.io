@@ -1,0 +1,715 @@
+/* Цвета и оттенки */
+/* Шрифты */
+@font-face {
+  font-family: 'Museo Sans Cyrl 900';
+  src: url('../fonts/MuseoSansCyrl-900.eot');
+  src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-900.woff') format('woff'), url('../fonts/MuseoSansCyrl-900.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl 300';
+  src: url('../fonts/MuseoSansCyrl-300.eot');
+  src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-300.woff') format('woff'), url('../fonts/MuseoSansCyrl-300.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl 500';
+  src: url('../fonts/MuseoSansCyrl-500.eot');
+  src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-500.woff') format('woff'), url('../fonts/MuseoSansCyrl-500.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-500.svg#MuseoSansCyrl-500') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl 700';
+  src: url('../fonts/MuseoSansCyrl-700.eot');
+  src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-700.woff') format('woff'), url('../fonts/MuseoSansCyrl-700.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  overflow-x: hidden;
+  font-size: 10px;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+input:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+a:active {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+a:visited {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+a:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+section {
+  padding: 10rem 0;
+}
+/* Главный экран */
+.main {
+  background: #ffffff url(../img/all-bg/main-bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+.main .top-header-wrappers {
+  padding-top: 3rem;
+}
+.main .top-header-wrappers .header-contacts span {
+  color: #ffffff;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  font-size: 2.5rem;
+}
+.main .top-header-wrappers .header-contacts .order-phone {
+  color: #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 7.5rem;
+  font-size: 1.5rem;
+}
+.main .center-content-wrappers {
+  margin-top: 16rem;
+}
+.main .center-content-wrappers .title-content {
+  color: #ffffff;
+}
+.main .center-content-wrappers .title-content .main-title {
+  font-size: 4.4rem;
+  display: block;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+.main .center-content-wrappers .title-content .description-title {
+  display: block;
+  font-family: 'Museo Sans Cyrl 100', sans-serif;
+  font-size: 2.5rem;
+}
+.main .center-content-wrappers .title-content .btn-title {
+  margin-top: 5rem;
+  width: 33.6rem;
+  min-height: 5.6rem;
+  background-color: transparent;
+  border-color: #ffffff;
+  border-radius: 1px;
+  text-transform: uppercase;
+}
+.main .center-content-wrappers .title-content .btn-title:hover {
+  background-color: #fff;
+  color: #000;
+}
+.wrappers-services .wrapper-icon-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15rem;
+  color: #ffffff;
+  margin-bottom: 5rem;
+}
+.wrappers-services .wrapper-icon-main .icons-bg {
+  max-width: 5rem;
+  min-height: 5rem;
+  color: #ffffff;
+  margin: 0 auto;
+}
+.wrappers-services .sl__text {
+  height: 6rem;
+  margin-top: 2rem;
+}
+.slick-slide:focus,
+.slick-slide a {
+  outline: none;
+}
+/* События */
+.event-header .center-evet-header .event-title {
+  color: #1b1b1b;
+  text-transform: uppercase;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+.bottom-event-family .wrappers-family {
+  margin-top: 7rem;
+}
+.bottom-event-family .wrap-bg {
+  display: inline-block;
+}
+.bottom-event-family .wrap-bg img {
+  margin-right: -4px;
+  max-width: 100%;
+}
+/* Форма отправки */
+.form .form-header .title-form-header {
+  font-size: 3rem;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+.form .form-header .description-form-header {
+  font-size: 1.5rem;
+}
+.the-form-main {
+  margin-top: 3rem;
+}
+.the-form-main .main-input {
+  border: 1px solid  #d0d0d0;
+  background-image: url(../img/icons/input1.png);
+  background-repeat: no-repeat;
+  /*Убираем повтор изображения*/
+  background-position: 250px;
+  /*Позиционируем*/
+  min-width: 29.6rem;
+  min-height: 5.6rem;
+  padding: 20px;
+}
+.the-form-main .main-input-2 {
+  border: 1px solid  #d0d0d0;
+  background-image: url(../img/icons/input2.png);
+  background-repeat: no-repeat;
+  /*Убираем повтор изображения*/
+  background-position: 250px;
+  /*Позиционируем*/
+  min-width: 29.6rem;
+  min-height: 5.6rem;
+  padding: 20px;
+}
+.the-form-main .form-btn {
+  background-color: #5ba2a9;
+  min-width: 29.6rem;
+  min-height: 58px;
+  border: none;
+  border-radius: 1px;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+.main-form-bottom {
+  margin-bottom: 8rem;
+}
+.wrap-form_2 {
+  margin-top: 5rem;
+}
+/* Главные преимущества */
+.benefits {
+  background: #ffffff url(../img/all-bg/bg-benefits.jpg) center center no-repeat;
+  background-size: cover;
+}
+.benefits-header .center-benefits-header .benefits-title {
+  text-transform: uppercase;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  color: #1b1b1b;
+  margin-bottom: 7rem;
+}
+.benefits-header .center-benefits-content p {
+  color: #1b1b1b;
+  margin-top: 2rem;
+}
+.benefits-header .center-benefits-content .main-center-content-wraps {
+  margin-bottom: 17rem;
+}
+.benefits-header .benefits-png {
+  width: 5rem;
+  height: 5rem;
+}
+/* Стоимость услуг */
+.cost-services .haeder-cost-services-wrappers .cost-services-title {
+  color: #1b1b1b;
+  text-transform: uppercase;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+.form-main-wrappers-cost-services {
+  font-family: 'Museo Sans Cyrl 300', sans-serif;
+  color: #1b1b1b;
+  line-height: 2.5rem;
+  margin-top: 5rem;
+}
+.form-main-wrappers-cost-services form {
+  border: 1px solid #e8e8e8;
+  background-color: #ffffff;
+  width: 298px;
+  min-height: 460px;
+  padding: 50px 30px;
+}
+.form-main-wrappers-cost-services form:hover {
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.form-main-wrappers-cost-services .title-form {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.form-main-wrappers-cost-services .money-innform {
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  color: #5ba2a9;
+  font-size: 3.7rem;
+}
+.form-main-wrappers-cost-services .rehc {
+  color: #5ba2a9;
+  font-size: 1.125rem;
+}
+.form-main-wrappers-cost-services .form-description {
+  margin-top: 2rem;
+}
+.form-main-wrappers-cost-services .form-btn-cost-services {
+  margin-top: 3rem;
+  width: 196px;
+  height: 50px;
+  border-radius: 1px;
+  background-color: transparent;
+  border-color: #e8e8e8;
+  color: #5a5a5a;
+  text-transform: uppercase;
+}
+.form-main-wrappers-cost-services .form-btn-cost-services:hover {
+  background-color: #5ba2a9;
+  color: #ffffff;
+}
+/* Второстепенные преимущества */
+.advantages {
+  background: #ffffff url(../img/all-bg/bg-benefits.jpg) center center no-repeat;
+  background-size: cover;
+}
+.advantages .center-advantages-header h2 {
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  text-transform: uppercase;
+  color: #1b1b1b;
+}
+.advantages .center-advantages-content {
+  margin-top: 5rem;
+  font-family: 'Museo Sans Cyrl 300', sans-serif;
+}
+.advantages .center-advantages-content .advantages-png_1 {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  width: 7rem;
+  height: 6rem;
+}
+.advantages-png {
+  width: 20rem;
+  height: 20rem;
+}
+.advantages-content-wrap-top {
+  margin-top: 3rem;
+}
+/* Отзовы о нас */
+.top-feedback-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.feedback {
+  background: #ffffff url(../img/feedback-img/bg-feedback.png) center center no-repeat;
+  background-size: cover;
+  -webkit-transform: none !important;
+          transform: none !important;
+}
+.feedback .center-feedback-header h2 {
+  text-transform: uppercase;
+  color: #1b1b1b;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+.feedback-form {
+  background-color: #ffffff;
+  width: 100%;
+  min-height: 340px;
+}
+.feedback-slider-title-header {
+  margin-left: 8rem;
+}
+.feedback-slider-title-header .feed-title {
+  color: #1b1b1b;
+  text-transform: uppercase;
+  margin-top: 8rem;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+.feedback-slider-title-header .description-title {
+  font-family: 'Museo Sans Cyrl 300', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+}
+.feedback-avatar {
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+.feedback-slider {
+  margin-top: 7rem;
+  margin-left: 15rem;
+  height: 400px;
+}
+.slick-dots li button:hover {
+  background-color: #fff;
+}
+.slick-dots li button:before {
+  content: '';
+  border: 1px solid #777;
+  border-radius: 50%;
+}
+.slick-dots li button:before:hover {
+  background-color: #fff;
+}
+.slick-active {
+  outline: none;
+}
+/* Счастье с картинками */
+.happiness .center-happiness-header h2 {
+  color: #1b1b1b;
+  text-transform: uppercase;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+.wrap_content-in_hover {
+  margin: 0 auto;
+}
+.happiness-content .happins-wrap-png {
+  display: inline-block;
+}
+.happiness-content .happiness-content-left {
+  min-height: 80rem;
+}
+.happiness-content .happins-wrap-png {
+  display: inline-block;
+}
+.happiness-content {
+  margin-top: 5rem;
+}
+.hap_left-bg {
+  margin-top: 1.5rem;
+}
+.wrap-right-bg {
+  margin-top: 2rem;
+}
+.wrap_rigt-bg_2 {
+  margin-top: 2rem;
+  position: relative;
+}
+.descor-wrap {
+  position: relative;
+  display: inline-block;
+}
+.descror {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  font-size: 1rem;
+  padding-top: 5rem ;
+  vertical-align: middle;
+  text-align: center;
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+.descror a {
+  color: #fff;
+  text-decoration: none;
+}
+.descror a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.ml_descor-col-row {
+  margin-left: 1.7rem;
+}
+.descor-wrap:hover .descror {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  width: 85%;
+  height: 85%;
+  margin: 2rem 2rem auto;
+}
+.discription_in-title:hover .descror {
+  padding-top: 5rem;
+}
+.wrap-top {
+  margin-top: 2rem;
+}
+/* Футер */
+.wrap-fooer_form {
+  margin-left: 5rem;
+}
+.footer {
+  padding: 0;
+  background-color: #222222;
+}
+.footer .footer-link {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+.footer .order-footer-phone {
+  color: #ffffff;
+  margin-left: 7rem;
+}
+.footer .wrap-footer-content_2 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+/* Оформление модальных окон */
+.the-popup-main {
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+.popup-input {
+  width: 20rem;
+  display: block;
+  padding: 10px;
+}
+.popup1 {
+  border-radius: 30px;
+  width: 65%;
+  margin-left: 10rem;
+  font-size: 1.7rem;
+}
+.popup2 {
+  margin-top: 3rem;
+  border-radius: 30px;
+  width: 65%;
+  margin-left: 10rem;
+  font-size: 1.7rem;
+}
+.popup-btn {
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  width: 100%;
+  height: 5rem;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+  text-align: center;
+  background-color: #4e1d53;
+  border-radius: 20px;
+}
+.modal-title {
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+}
+.modal-header {
+  background-color: #2f1d31;
+}
+.modal-body {
+  background-color: #362338;
+}
+.modal-body hr {
+  display: none;
+}
+.modal-footer {
+  background-color: #2f1d31;
+}
+/* Медиа */
+@media (max-width: 1200px) {
+  .header-contacts {
+    margin-bottom: 5rem;
+  }
+  .form-btn {
+    margin-top: 2rem;
+  }
+  .main-input-2 {
+    margin-top: 2rem;
+  }
+  .feedback-slider {
+    margin: 0 auto;
+  }
+  .wrap-content-footer {
+    margin-top: 2rem;
+  }
+  .happiness-content {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 361px) {
+  .wrappers-services .wrapper-icon-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 15rem;
+    color: #ffffff;
+    margin-bottom: 5rem;
+  }
+  .wrappers-services .sl__text {
+    height: 6rem;
+  }
+  .header-contacts {
+    margin-top: 10rem;
+    margin-right: 8rem;
+  }
+  .brand-header {
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 413px) {
+  .header-contacts {
+    margin-top: 12rem;
+    margin-right: 11rem;
+  }
+  .brand-header {
+    margin-left: 7rem;
+  }
+  .wrappers-services .wrapper-icon-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 15rem;
+    color: #ffffff;
+    margin-bottom: 5rem;
+  }
+  .wrappers-services .sl__text {
+    height: 6rem;
+  }
+}
+@media (max-width: 321px) {
+  .header-contacts {
+    margin-top: 12rem;
+    margin-right: 6rem;
+  }
+  .brand-header {
+    margin-left: 4rem;
+  }
+  .wrappers-services .wrapper-icon-main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 15rem;
+    color: #ffffff;
+    margin-bottom: 5rem;
+  }
+  .wrappers-services .sl__text {
+    height: 6rem;
+  }
+}
+@media (max-width: 376px) {
+  .header-contacts {
+    margin-top: 12rem;
+    margin-right: 6rem;
+  }
+}
+@media (max-width: 415px) {
+  .main-feedback-wrappers_2 {
+    margin: 0;
+    margin-left: 5.5rem;
+  }
+}
+@media (max-width: 1202px) {
+  form {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 1200px) {
+  .feedback-avatar {
+    margin: 0 auto;
+  }
+  .feedback-slider-title-header {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .main-feedback-wrappers_2 {
+    margin: 0 auto;
+  }
+  .main-feedback-wrappers_2 form {
+    width: 100%;
+  }
+  .happiness-content img {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+  .descor-wrap {
+    margin-left: 2rem;
+  }
+}
+@media (max-width: 480px) {
+  .bottom-event-family {
+    margin-left: 2rem;
+  }
+  .sl__text {
+    margin-right: 7rem;
+  }
+  .sl__slider {
+    margin-left: 3rem;
+  }
+}
+@media (max-width: 361px) {
+  .src-wrap_png {
+    margin-left: 2rem !important;
+  }
+}
+@media (max-width: 412px) {
+  .src-wrap_png {
+    margin-left: 5rem !important;
+  }
+  .icons-bg {
+    margin-left: 12rem !important;
+  }
+  .header-contacts {
+    margin-left: 1rem !important;
+    display: inline-block;
+  }
+  .form-main-wrappers-cost-services {
+    margin-left: 5rem;
+  }
+}
+@media (max-width: 320px) {
+  .src-wrap_png {
+    margin-left: 1rem !important;
+  }
+  .form-main-wrappers-cost-services {
+    margin-top: 5rem !important;
+  }
+  .sl__text {
+    margin-left: 5rem;
+  }
+}
+@media (max-width: 375px) {
+  .src-wrap_png {
+    margin-right: 1rem !important;
+  }
+  .icons-bg {
+    margin-left: 10rem !important;
+  }
+}
+@media (max-width: 414px) {
+  .src-wrap_png {
+    margin-left: 1rem !important;
+  }
+  .icons-bg {
+    margin-right: 16rem !important;
+  }
+}
+@media (max-width: 360px) {
+  .form-main-wrappers-cost-services {
+    margin-left: 2rem;
+  }
+  .icons-bg {
+    margin-left: 9rem !important;
+  }
+}
