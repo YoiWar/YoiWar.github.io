@@ -1,0 +1,1008 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <title>Роддом - BESTRAPA</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+
+    <style>
+      /* Цвета и оттенки */
+/* Шрифты */
+@font-face {
+  font-family: 'Museo Sans Cyrl 900';
+  src: url('../fonts/MuseoSansCyrl-900.eot');
+  src: url('../fonts/MuseoSansCyrl-900.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-900.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-900.woff') format('woff'), url('../fonts/MuseoSansCyrl-900.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-900.svg#MuseoSansCyrl-900') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl 300';
+  src: url('../fonts/MuseoSansCyrl-300.eot');
+  src: url('../fonts/MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-300.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-300.woff') format('woff'), url('../fonts/MuseoSansCyrl-300.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-300.svg#MuseoSansCyrl-300') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl 500';
+  src: url('../fonts/MuseoSansCyrl-500.eot');
+  src: url('../fonts/MuseoSansCyrl-500.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-500.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-500.woff') format('woff'), url('../fonts/MuseoSansCyrl-500.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-500.svg#MuseoSansCyrl-500') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl 700';
+  src: url('../fonts/MuseoSansCyrl-700.eot');
+  src: url('../fonts/MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'), url('../fonts/MuseoSansCyrl-700.woff2') format('woff2'), url('../fonts/MuseoSansCyrl-700.woff') format('woff'), url('../fonts/MuseoSansCyrl-700.ttf') format('truetype'), url('../fonts/MuseoSansCyrl-700.svg#MuseoSansCyrl-700') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  overflow-x: hidden;
+  font-size: 10px;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+input:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+a:active {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+a:visited {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+a:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+section {
+  padding: 10rem 0;
+}
+/* Главный экран */
+.main {
+  background: #ffffff url(../img/all-bg/main-bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+.main .top-header-wrappers {
+  padding-top: 3rem;
+}
+.main .top-header-wrappers .header-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.main .top-header-wrappers .header-contacts span {
+  color: #ffffff;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+  font-size: 2.5rem;
+}
+.main .top-header-wrappers .header-contacts .order-phone {
+  color: #cccccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 7.5rem;
+  font-size: 1.5rem;
+}
+.main .center-content-wrappers {
+  margin-top: 16rem;
+}
+.main .center-content-wrappers .title-content {
+  color: #ffffff;
+}
+.main .center-content-wrappers .title-content .main-title {
+  font-size: 4.4rem;
+  display: block;
+  font-family: 'Museo Sans Cyrl 700', sans-serif;
+}
+.main .center-content-wrappers .title-content .description-title {
+  display: block;
+  font-family: 'Museo Sans Cyrl 100', sans-serif;
+  font-size: 2.5rem;
+}
+.main .center-content-wrappers .title-content .btn-title {
+  margin-top: 5rem;
+  width: 33.6rem;
+  min-height: 5.6rem;
+  background-color: transparent;
+  border-color: #ffffff;
+  border-radius: 1px;
+  text-transform: uppercase;
+}
+.main .center-content-wrappers .title-content .btn-title:hover {
+  background-color: #fff;
+  color: #000;
+}
+.wrappers-services .wrapper-icon-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15rem;
+  color: #ffffff;
+  margin-bottom: 5rem;
+}
+.wrappers-services .wrapper-icon-main .icons-bg {
+  width: 5rem;
+  min-height: 5rem;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  margin-left: 6.5rem;
+}
+.wrappers-services .sl__text {
+  height: 6rem;
+}
+.slick-slide:focus,
+.slick-slide a {
+  outline: none;
+}
+    </style>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+   <main class="main">
+    <div class="container">
+     <div class="wrappers-header">
+      <div class="top-header-wrappers">
+       <div class="row">
+        <div class="col-lg-4 col-md-3 col-sm-3 col-xs-3 ">
+         <div class="brand-header">
+          <img src="img/icons/brand.png" alt="Бренд" class="brand">
+         </div>
+        </div>
+        <div class="header-contacts">
+         <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xs-offset-0">
+            <span class="phone-link">8 800 000 0000</span> <br>
+            <a href="#modal" data-toggle="modal" class="order-phone">Заказать звонок</a>
+         </div>
+          </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="wrappers-content">
+      <div class="center-content-wrappers">
+      <div class="row">
+       <div class="col-lg-8 col-lg-offset-2  text-center">
+        <div class="title-content">
+         <h1 class="main-title">Вы будете лучшим папой,</h1>
+         <span class="description-title">что забрал любимую жену и ребеночка с роддома</span>
+         <button type="button" class="btn btn-primary btn-lg btn-title"  data-toggle="modal" data-target="#modal">Заказать услуги</button>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="wrappers-services">
+     <div class="bottom-services-wrappers">
+      <div class="row ">
+        <div class="wrapper-icon-main responsive">
+         <div class="col-lg-3 col-lg-offset-0 col-ms-3 col-sm-3 col-xs-12 col-xs-offset-0">
+           <div class="sl__slider">
+            <img class="icons-bg img-responsive" src="img/icons/icon1.png" alt="Оформление квартиры шариками ">
+            <div class="sl__text text-center">
+             <p>Оформление <br> квартиры шариками</p>
+            </div>
+           </div>
+         </div>
+         <div class="col-lg-3 col-lg-offset-0 col-ms-3 col-sm-3 col-xs-12 col-xs-offset-0">
+           <div class="sl__slider">
+            <img class="icons-bg img-responsive" src="img/icons/icon2.png" alt="Оформление машины ">
+            <div class="sl__text text-center">
+             <p>Оформление <br> машины </p>
+            </div>
+           </div>
+         </div>
+         <div class="col-lg-3 col-lg-offset-0 col-ms-3 col-sm-3 col-xs-12 col-xs-offset-0">
+           <div class="sl__slider">
+            <img class="icons-bg img-responsive" src="img/icons/icon3.png" alt="Фотосъемка <br> от А до Я">
+            <div class="sl__text text-center">
+             <p>Фотосъемка <br> "от А до Я"</p>
+            </div>
+           </div>
+         </div>
+         <div class="col-lg-3 col-lg-offset-0 col-ms-3 col-sm-3 col-xs-12 col-xs-offset-0">
+           <div class="sl__slider">
+            <img class="icons-bg img-responsive" src="img/icons/icon4.png" alt="Нам доверились <br> более 3000 мужчин">
+            <div class="sl__text text-center">
+             <p>Нам доверились  более 3000 мужчин</p>
+            </div>
+           </div>
+         </div>
+         <div class="col-lg-3 col-lg-offset-0 col-ms-3 col-sm-3 col-xs-12 col-xs-offset-0">
+           <div class="sl__slider">
+            <img class="icons-bg img-responsive" src="img/icons/icon5.png" alt="Видеосъемка выполнена <br> профессионалами">
+            <div class="sl__text text-center">
+             <p>Видеосъемка выполнена  профессионалами</p>
+            </div>
+           </div>
+         </div>
+        </div>
+      </div>
+     </div>
+    </div>
+  </div>
+  </main>
+  <section class="event">
+  <div class="container">
+    <div class="event-header">
+        <div class="top-event-header">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <img src="img/icons/heart.png" alt="Иконка" class="heart">
+            </div> 
+          </div>
+        </div>
+        <div class="center-evet-header">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="event-title header_light">
+                Это незабываемое событие!
+              </h2>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+    <div class="bottom-event-family">
+      <div>
+        <div class="wrappers-family slide">
+          <div class="wrap-bg">
+            <img src="img/img-famili/fam1.png" alt="">
+            </div>
+          <div class="wrap-bg">
+            <img src="img/img-famili/fam2.png" alt="">
+            </div>
+          <div class="wrap-bg">
+            <img src="img/img-famili/fam3.png" alt="">
+            </div>
+          <div class="wrap-bg">
+            <img src="img/img-famili/fam4.png" alt="">
+            </div>
+          <div class="wrap-bg">
+            <img src="img/img-famili/fam5.png" alt="">
+            </div>
+          <div class="wrap-bg">
+            <img src="img/img-famili/fam6.png" alt="">
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="form">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="form-header">
+            <h3 class="title-form-header">
+              Заказать выписку из роддома
+            </h3>
+            <p class="description-form-header">
+              Заполните форму и мы организуем выписку из роддома <br> полностью за Вас!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="main-form-bottom text-center">
+        <div class="row">
+           <form action="mailer/smart.php" method="POST">
+                    <div class="the-form-main ">
+               <div class="col-lg-4 col-md-12 col-sm-12  " required>
+                 <input type="text" placeholder="Имя" name="user_name_1" required class="main-input">
+               </div>
+               <div class="col-lg-3 col-md-12 col-sm-12 ">
+                 <input type="text" placeholder="Телефон" name="user_phone_" required id="phone" class="main-input-2">
+               </div>
+               <div class="col-lg-4 text-center col-md-12 col-sm-12 col-xs-12">
+                 <button type="submit" class="btn btn-primary btn-lg form-btn">отправить</button>
+               </div>
+             </div>
+           </form>
+          </div>
+      </div>
+      </div>
+      </div>
+    <section class="advantages">
+      <div class="container">
+        <div class="advantages-header">
+          <div class="top-advantages-header">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <img src="img/icons/moon.png" alt="Иконка" class="heart">
+              </div> 
+            </div>
+          </div>
+          <div class="center-advantages-header">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2 class="advantages-title header_light">
+                 Почему вы закажете именно у нас
+                </h2>
+              </div>
+            </div>
+            <div class="center-advantages-content text-center">
+              <div class="row">
+                <div class="main-center-content-wraps">
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/icons/ben1.png" class="advantages-png_1" alt="Срок организации - 1 день">
+                    <p>Срок организации - <br> 1 день</p>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                    <img src="img/icons/ben2.png" class="advantages-png_1" alt="Незабываемые <br> эмоции">
+                    <p>Незабываемые <br> эмоции</p>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 ">
+                    <img src="img/icons/ben3.png" class="advantages-png_1" alt="Вы экономите <br> своё время">
+                    <p>Вы экономите <br> своё время</p>
+                  </div>
+                </div>              
+                <div class="center-content-wraps text-center">
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 ">
+                    <img src="img/icons/ben4.png" class="advantages-png_1" alt="Видео и фотосъемка <br> высокого качества">
+                    <p>Видео и фотосъемка <br> высокого качества</p>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 ">
+                    <img src="img/icons/ben5.png" class="advantages-png_1" alt="Наличный и безналичный <br> расчет">
+                    <p>Наличный и безналичный <br> расчет</p>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 ">
+                    <img src="img/icons/ben6.png" class="advantages-png_1" alt="Индивидуальный подход <br> к каждому празднику">
+                    <p>Индивидуальный подход <br> к каждому празднику</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   <section class="cost-services">
+     <div class="container">
+     <div class="top-cost-services-header">
+       <div class="row">
+         <div class="col-lg-12 text-center">
+           <img src="img/icons/money-icon.png" alt="Иконка" class="heart">
+         </div> 
+       </div>
+     </div>
+       <div class="haeder-cost-services-wrappers">
+         <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2 class="cost-services-title header_light">
+               Стоимость наших услуг
+              </h2>
+            </div>
+         </div>
+       </div>
+       <div class="form-main-wrappers-cost-services">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center">
+            <div class="form-wrap">
+              <form action="#">
+                <h5 class="title-form">Vip</h5>
+                <span class="money-innform">9 000</span><span clas="rehc">руб.</span>
+                <p class="form-description">Шары 30 шт разноцветные <br> Наклейка на машину <br>  Фотосъемк <br>(15 обработанных фотографий <br> оформленных в фотокнигу)</p>
+                <button type="button" class="btn btn-primary btn-lg form-btn-cost-services" data-toggle="modal" data-target="#modal">заказать услугу</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center">
+            <div class="form-wrap">
+              <form action="#">
+                <h5 class="title-form">Delux</h5>
+                <span class="money-innform">15 000 </span><span clas="rehc">руб.</span>
+                <p class="form-description">Шары 30 шт разноцветные <br> Наклейка на машину <br> Фотосъемка <br> Живая музыка (скрипка) <br> Красивый букет цветов для мам</p>
+                <button type="button" class="btn btn-primary btn-lg form-btn-cost-services" data-toggle="modal" data-target="#modal">заказать услугу</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center">
+            <div class="form-wrap user_frorm">
+              <form action="#">
+                <h5 class="title-form">Moder</h5>
+                <span class="money-innform">30 000 </span><span clas="rehc">руб.</span>
+                <p class="form-description">Шары 30 шт разноцветные <br><br> Наклейка на машину <br><br>  Фотосъемка <br><br> Диск с записанным стихом, посвященный  конкретно вашей супруге, прочитанный <br> под "вашу" песню, который вы включите в  машине <br><br> Красивый букет цветов для мамы <br><br Украшение квартирывидиосъемка</p>
+                <button type="button" class="btn btn-primary btn-lg form-btn-cost-services" data-toggle="modal" data-target="#modal">заказать услугу</button>
+              </form>
+            </div>
+          </div>
+        </div>
+       </div>
+     </div>
+   </section>
+   <section class="advantages">
+      <div class="container">
+        <div class="advantages-header">
+          <div class="top-advantages-header">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <img src="img/icons/portfol.png" alt="Иконка" class="heart">
+              </div> 
+            </div>
+          </div>
+          <div class="center-advantages-header">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <h2 class="advantages-title header_light">
+                 Наши преимущества
+                </h2>
+              </div>
+            </div>
+            </div>
+            <div class="center-advantages-content text-center">
+              <div class="row">
+                <div class="main-center-content-wraps">
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 advantages-content-wrap-top">
+                    <img src="img/icons/prem1.png" class="advantages-png" alt="Мы занимаемся <br> организацией праздников <br> с 2008 года">
+                    <p>Мы занимаемся <br> организацией праздников <br> с 2008 года</p>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 advantages-content-wrap-top">
+                    <img src="img/icons/prem2.png" class="advantages-png" alt="Нас рекомендуют  <br> более 500 <br> счастливых мужей">
+                    <p>Нас рекомендуют  <br> более 500 <br> счастливых мужей</p>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6  col-xs-12 advantages-content-wrap-top">
+                    <img src="img/icons/prem3.png" class="advantages-png" alt="Небольшие цены  <br> за высокое качество  <br> обслуживания">
+                    <p>Небольшие цены  <br> за высокое качество  <br> обслуживания</p>
+                  </div>
+                </div>
+                <div class="center-content-wraps text-center">
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 advantages-content-wrap-top">
+                    <img src="img/icons/prem4.png" class="advantages-png" alt="Более 1000 <br> проведенных <br> выписок ">
+                    <p>Более 1000 <br> проведенных <br> выписок </p>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 advantages-content-wrap-top">
+                    <img src="img/icons/prem5.png" class="advantages-png" alt="Организация <br> праздника <br> в день обращения ">
+                    <p>Организация <br> праздника <br> в день обращения </p>
+                  </div>
+                  <div class="col-lg-4 col-md62 col-sm-6 col-xs-12 advantages-content-wrap-top">
+                    <img src="img/icons/prem6.png" class="advantages-png" alt="Есть решения <br> задач <br> любой сложности">
+                    <p>Есть решения <br> задач <br> любой сложности</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <div class="form wrap-form_2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="form-header">
+              <h3 class="title-form-header">
+                Вы запомните этот день на всю жизнь! Доверьтесь нам!
+              </h3>
+              <p class="description-form-header">
+                Заполни заявку и мы расскажем, как сделать встречу любимой жены <br> и ребенка незабываемой!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="main-form-bottom text-center">
+          <div class="row">
+        <form action="mailer/smart.php" method="POST">
+                    <div class="the-form-main ">
+               <div class="col-lg-4 col-md-12 col-sm-12  " required>
+                 <input type="text" placeholder="Имя" name="user_name" required class="main-input">
+               </div>
+               <div class="col-lg-3 col-md-12 col-sm-12 ">
+                 <input type="text" placeholder="Телефон" name="user_phone" required id="phone" class="main-input-2">
+               </div>
+               <div class="col-lg-4 text-center col-md-12 col-sm-12 col-xs-12">
+                 <button type="submit" class="btn btn-primary btn-lg form-btn">заказать услугу</button>
+               </div>
+             </div>
+           </form>
+            </div>
+        </div>
+      </div>
+   </div>
+     <section class="feedback">
+     <div class="container">
+             <div class="top-feedback-header">
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <img src="img/icons/portfol.png" alt="Иконка" class="heart">
+              </div> 
+            </div>
+          </div>
+       <div class="center-feedback-header">
+         <div class="row">
+           <div class="col-lg-12 text-center">
+             <h2 class="feedback-title header_light">
+              Отзовы о нас
+             </h2>
+           </div>
+         </div>
+      </div> 
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-lg-offset-">
+           <div class="main-feedback-wrappers_2 feedback">
+              <div class="feedback-slider feedback">
+              <div class="row">
+              <form action="#" class="feedback-form  slick-slider">
+           <div class="wrap-feedback-slider-img  ">
+             <div class="col-lg-3 ">
+              <img src="img/feedback-img/feedback-avatar.png" alt="" class="feedback-avatar">
+            </div>
+           </div>       
+             <div class="col-lg-7  ">
+               <div class="feedback-slider-title-header">
+                 <h3 class="feed-title">
+                   Игорь иванов
+                 </h3>
+                 <p class="description-title">
+                   Первый раз обратился в данную службу два года назад, потому  что со вкусом у меня не очень, а жену хотел порадовать. И  действительно, моя любимая была самой счастливой. А когда  Света, родила мне второго малыша, я уже знал куда обращаться, при выписке из роддома.
+                 </p>
+               </div>
+             </div>
+         </form>
+              </div>
+            </div>              
+              <div class="feedback-slider feedback">
+              <div class="row">
+              <form action="#" class="feedback-form  slick-slider">
+           <div class="wrap-feedback-slider-img  ">
+             <div class="col-lg-3 ">
+              <img src="img/feedback-img/feedback-avatar.png" alt="" class="feedback-avatar">
+            </div>
+           </div>       
+             <div class="col-lg-7  ">
+               <div class="feedback-slider-title-header">
+                 <h3 class="feed-title">
+                   Игорь иванов
+                 </h3>
+                 <p class="description-title">
+                   Первый раз обратился в данную службу два года назад, потому  что со вкусом у меня не очень, а жену хотел порадовать. И  действительно, моя любимая была самой счастливой. А когда  Света, родила мне второго малыша, я уже знал куда обращаться, при выписке из роддома.
+                 </p>
+               </div>
+             </div>
+         </form>
+              </div>
+             </div>
+           <div class="feedback-slider feedback">
+              <div class="row">
+              <form action="#" class="feedback-form  slick-slider">
+           <div class="wrap-feedback-slider-img  ">
+             <div class="col-lg-3 ">
+              <img src="img/feedback-img/feedback-avatar.png" alt="" class="feedback-avatar">
+            </div>
+           </div>       
+             <div class="col-lg-7  ">
+               <div class="feedback-slider-title-header">
+                 <h3 class="feed-title">
+                   Игорь иванов
+                 </h3>
+                 <p class="description-title">
+                   Первый раз обратился в данную службу два года назад, потому  что со вкусом у меня не очень, а жену хотел порадовать. И  действительно, моя любимая была самой счастливой. А когда  Света, родила мне второго малыша, я уже знал куда обращаться, при выписке из роддома.
+                 </p>
+               </div>
+             </div>
+             </form>
+           </div>
+          </div>
+         </div>
+      </div>
+    </div>
+      </div>
+     </div>
+   </section>
+    <div class="form wrap-form_2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="form-header">
+              <h3 class="title-form-header">
+                Вам не нужно договариваться за оператора, фотографа, кондитера - <br> Мы сделаем это за Вас!
+              </h3>
+              <p class="description-form-header">
+                Заполни заявку и мы расскажем, как сделать встречу любимой жены <br> и ребенка незабываемой!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="main-form-bottom text-center">
+          <div class="row">
+         <form action="mailer/smart.php" method="POST">
+                    <div class="the-form-main ">
+               <div class="col-lg-4 col-md-12 col-sm-12  " required>
+                 <input type="text" placeholder="Имя" name="user_name" required class="main-input">
+               </div>
+               <div class="col-lg-3 col-md-12 col-sm-12 ">
+                 <input type="text" placeholder="Телефон" name="user_phone" required id="phone" class="main-input-2">
+               </div>
+               <div class="col-lg-4 text-center col-md-12 col-sm-12 col-xs-12">
+                 <button type="submit" class="btn btn-primary btn-lg form-btn">заказать звонок</button>
+               </div>
+             </div>
+           </form>
+            </div>
+        </div>
+      </div>
+   </div>
+   </div>
+  <section class="happiness">     
+     <div class="container">       
+         <div class="row">
+           <div class="col-lg-12 text-center">
+             <img src="img/icons/happins.png" alt="Иконка" class="heart">
+           </div> 
+         </div>
+       <div class="center-happiness-header">
+         <div class="row">
+           <div class="col-lg-12 text-center">
+             <h2 class="happiness-title header_light">
+             Эти мужчины уже осчастливили своих жен!
+             </h2>
+           </div>
+         </div>
+     </div>
+     <div class="happiness-content">
+       <div class="col-lg-5 col-lg-offset-0 col-md-offset-0 col-sm-offset-0">        
+           <div class="descor-wrap">
+             <span class="descror">
+               <span class="row">
+                 <div class="col-lg-12">
+                   <a href="img/main-mon/hap1.png" class="item"><img src="img/main-mon/hover-png.png" alt="Картинка при ховере" class="pnp-hover">
+                     <div class="discription_in-title">
+                       <h3 class="title-hover-mon">Иван и Наталья</h3>
+                       <p class="description-hover-mon">24/05/2015</p>
+                     </div>
+                     </a>
+                 </div>
+               </span>
+             </span><img src="img/main-mon/hap1.png" class="hap-bg " alt="семья">
+           </div>
+           <div class="descor-wrap">
+             <span class="descror">
+               <span class="row">
+                 <span class="col-lg-12">
+                    <a href="img/main-mon/hap2.png" class="item"><img src="img/main-mon/hover-png.png" alt="Картинка при ховере" class="pnp-hover">
+                     <h3 class="title-hover-mon">Иван и Наталья</h3>
+                     <p class="description-hover-mon">24/05/2015</p></a>
+                 </span>
+               </span>
+             </span><img src="img/main-mon/hap2.png" class="hap-bg wrap-top" alt="семья">
+           </div>
+         </div>
+       <div class="col-lg-6">
+         <div class="descor-wrap">
+             <span class="descror">
+               <span class="row">
+                 <span class="col-lg-12">
+                   
+                  <div class="wrap_content-in_hover">
+                       <a href="img/main-mon/hap3.png" class="item"><img src="img/main-mon/hover-png.png" alt="Картинка при ховере" class="pnp-hover">
+                     <h3 class="title-hover-mon">Иван и Наталья</h3>
+                     <p class="description-hover-mon">24/05/2015</p></a>
+                  </div>
+                 </span>
+               </span>
+             </span><img src="img/main-mon/hap3.png" class="hap-bg" alt="семья">
+           </div>
+         <div class="wrap-right-bg">          
+             <div class="descor-wrap">
+             <span class="descror">
+               <span class="row">
+                 <span class="col-lg-12">
+                     <a href="img/main-mon/hap4.png" class="item"><img src="img/main-mon/hover-png.png" alt="Картинка при ховере" class="pnp-hover">
+                     <h3 class="title-hover-mon">Иван и Наталья</h3>
+                     <p class="description-hover-mon">24/05/2015</p></a>
+                 </span>
+               </span>
+             </span><img src="img/main-mon/hap4.png" class="hap-bg src-wrap_png" alt="семья">
+           </div>
+             <div class="descor-wrap">
+             <span class="descror">
+               <span class="row">
+                 <span class="col-lg-12">
+                  <a href="img/main-mon/hap5.png" class="item"><img src="img/main-mon/hover-png.png" alt="Картинка при ховере" class="pnp-hover">
+                     <h3 class="title-hover-mon">Иван и Наталья</h3>
+                     <p class="description-hover-mon">24/05/2015</p></a>
+                 </span>
+               </span>
+             </span><img src="img/main-mon/hap5.png" class="hap-bg src-wrap_png  ml_descor-col-row " alt="семья">
+           </div>         
+         </div>
+         <div class="wrap_rigt-bg_2">        
+             <div class="descor-wrap">
+             <span class="descror">
+               <span class="row">
+                 <span class="col-lg-12">
+                <a href="img/main-mon/hap6.png" class="item"><img src="img/main-mon/hover-png.png" alt="Картинка при ховере" class="pnp-hover">
+                     <h3 class="title-hover-mon">Иван и Наталья</h3>
+                     <p class="description-hover-mon">24/05/2015</p></a>
+                 </span>
+               </span>
+             </span><img src="img/main-mon/hap6.png" class="hap-bg src-wrap_png" alt="семья">
+           </div>
+             <div class="descor-wrap">
+             <span class="descror">
+               <span class="row">
+                 <span class="col-lg-12">
+                   <a href="img/main-mon/hap7.png" class="item"><img src="img/main-mon/hover-png.png" alt="Картинка при ховере" class="pnp-hover">
+                     <h3 class="title-hover-mon">Иван и Наталья</h3>
+                     <p class="description-hover-mon">24/05/2015</p></a>
+                 </span>
+               </span>
+             </span><img src="img/main-mon/hap7.png" class="hap-bg src-wrap_png ml_descor-col-row " alt="семья">
+           </div>          
+         </div>
+       </div>
+     </div>
+     </div>
+  </section>
+    <div class="form wrap-form_2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="form-header">
+              <h3 class="title-form-header">
+                У вас остались вопросы?
+              </h3>
+              <p class="description-form-header">
+                Заполни заявку и мы расскажем, как сделать встречу любимой жены <br> и ребенка незабываемой!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="main-form-bottom text-center">
+          <div class="row">
+        <form action="mailer/smart.php" method="POST">
+                    <div class="the-form-main ">
+               <div class="col-lg-4 col-md-12 col-sm-12  " required>
+                 <input type="text" placeholder="Имя" name="user_name" required class="main-input">
+               </div>
+               <div class="col-lg-3 col-md-12 col-sm-12 ">
+                 <input type="text" placeholder="Телефон" name="user_phone" required id="phone" class="main-input-2">
+               </div>
+               <div class="col-lg-4 text-center col-md-12 col-sm-12 col-xs-12">
+                 <button type="submit" class="btn btn-primary btn-lg form-btn">заказать звонок</button>
+               </div>
+             </div>
+           </form>
+            </div>
+        </div>
+      </div>
+   </div>
+<!-- Футер -->
+<section class="footer">
+  <div class="container">
+    <div class="wrapers-footer">
+      <div class="row wrap-footer-content_2">
+        <div class="col-lg-3 col-sm-12 col-md-12 col-xs-12 text-center">
+          <div class="brand-footer">
+            <img src="img/icons/brand.png" alt="" class="footer-img">
+          </div>
+        </div>
+        <div class="col-lg-3 col-lg-offset-6 col-sm-12 col-md-12 col-xs-12 text-center wrap-content-footer">
+           <span class="footer-link">8 800 000 0000</span> <br>
+           <a href="#" class="order-footer-phone">Заказать звонок</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Модальное окно -->
+<div class="modal fade" id="modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Заинтересовало?</h4>
+      </div>
+      <div class="modal-body">
+      <form action="mailer/smart.php" method="POST">
+        <div class="main-popup-bottom ">
+          <div class="row">
+            <div class="the-popup-main ">
+              <div class="col-lg-12  ">
+                <input type="text" placeholder="Имя" name="user_name"  required class="popup1 popup-input">
+              </div>
+              <div class="col-lg-12 ">
+                <input type="text" placeholder="Телефон " name="user_phone"  id="phone_1"  class="popup2 popup-input">
+              </div>
+              <div class="col-lg-12 ">
+                <input type="text" placeholder="E-mail" name="user_email" required  class="popup2 popup-input">
+              </div>
+              </div>
+            </div>
+            </div>
+        </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary popup-btn">Отправить</button>
+          </div>
+      </form>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+     <link rel="stylesheet" href="css/animated.css">
+     <link href="css/main.css" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+     <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+     <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="js/jquery-3.2.1.js"></script>
+      <script>
+    $('form').submit(function(event) {
+      event.preventDefault();
+      $.ajax({
+        type: "POST",
+        url: "mailer/smart.php",
+        data: $(this).serialize()
+      }).done(function() {
+        $(this).find("input").val("");
+        alert("Сообщение успешно отправлено");
+        $("form").trigger("reset");
+      });
+      return false;
+    });
+  </script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-modal/2.2.6/css/bootstrap-modal-bs3patch.css"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+     
+     $('.responsive').slick({
+       dots: false,
+       infinite: false,
+       speed: 300,
+       slidesToShow: 5,
+       slidesToScroll: 5,
+       responsive: [
+         {
+           breakpoint: 1024,
+           settings: {
+             slidesToShow: 3,
+             slidesToScroll: 3,
+             infinite: true,
+             dots: false
+           }
+         },
+         {
+           breakpoint: 600,
+           settings: {
+             slidesToShow: 2,
+             slidesToScroll: 2,
+             dots: false
+           }
+         },
+         {
+           breakpoint: 480,
+           settings: {
+             slidesToShow: 1,
+             slidesToScroll: 1,
+              dots: false
+           }
+         }
+         // You can unslick at a given breakpoint now by adding:
+         // settings: "unslick"
+         // instead of a settings object
+       ]
+     });
+    </script>
+
+
+  <script>
+    $(".item").magnificPopup({
+      type : 'image',
+      gallery : {
+        enabled : true
+      }
+    })
+  </script>
+  
+
+    <script>
+      
+  
+
+
+$('.slide').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 6,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script>
+   <!-- Слайдер с отзовами -->
+    <script>
+  $('.feedback').slick({
+     dots: true,
+     slidesToShow: 1,
+     slidesToScroll: 1,
+    arrows: false,
+  });
+
+    </script>
+    <script>
+      var  = new ('.');
+    </script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script>
+      jQuery(function($){
+         $("#phone").mask("+7(999) 999-99-99");
+         $("#phone_1").mask("+7(999) 999-99-99");
+      });
+    </script>
+    <script>
+      var wow = new WOW;
+      wow.init();
+    </script>
+  </body>
+</html>
+  
+
+
+
+
+
